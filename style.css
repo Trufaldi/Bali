@@ -12,17 +12,21 @@ box-sizing: border-box;
 .container{
     margin:0 auto;
     width: 1141px;
-    color:white;
-    margin-bottom: 124px;
 }
 
 .main-page-wrapper{
+    color:white;
     background: url("img/1.png") center top no-repeat, url("img/2.png") right bottom 117px no-repeat;
 }
 h1,h2,h3,h4,h5,h6{
     margin:0;
     font-weight:normal;
 }
+
+p {
+margin:0;
+}
+
 .header{
 height: 60px;
 position: relative;
@@ -82,16 +86,17 @@ text-align:right;
 .contacts__phone{
     text-decoration: none;
     font-size:26px;
-    margin-bottom:1px;
+    margin-bottom:2px;
 }
 
 .contacts__schedule{
     font-size: 13px;
     text-decoration: underline;
+    margin-top:-5px;
 }
 .hello{
     width: 516px;
-    margin-bottom:246px;
+    margin-bottom:240px;
 
 }
 
@@ -99,7 +104,7 @@ text-align:right;
     font-size:72px;
     font-weight: bold;
     line-height: 1,1;
-    margin-bottom: 46px;
+    margin-bottom: 26px;
 }
 .hello__text{
     font-size:18px;
@@ -114,6 +119,7 @@ color: white;
 font-weight:bold;
 text-transform: uppercase;
 text-decoration: none;
+display: inline-block;
 }
 
 .button:hover{
@@ -127,7 +133,7 @@ margin-bottom:130px;
 .title{
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 45px;
+    margin-bottom: 52px;
 
 }
 .title--fire::after{
@@ -144,14 +150,16 @@ margin-bottom:130px;
     background-color: white;
     border-radius: 5px;
     display: inline-block;
-    margin-right: 27px;
+    margin-right: 20px;
     width: 362px;
 
+}
+.offers{
+    margin-bottom: 127px;
 }
 
 .offers__header{
 min-height: 144px;
-margin-bottom: 33px;
 
 }
 
@@ -159,13 +167,18 @@ margin-bottom: 33px;
 margin-right: 0;
 }
 
-.offers__item{
+.offers__content{
     padding: 26px 22px;
     color: #303030;
 }
 .offers__title{
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 21px;
+
+}
+.offers__features{
+    margin-bottom: 24px;
 }
 
 .offers__feature {
@@ -178,23 +191,33 @@ margin-right: 28px;
 margin-right: 0;
 }
 
+
 .offers__text {
     font-size:14px;
     margin-bottom: 35px;
 }
 
-
-
+.offers__feature-img, .offers__feature-text {
+display: inline-block;
+vertical-align: middle;
+}
+.offers__feature-img {
+    margin-right: 10px;
+}
 .button--theme-tours{
     border: 1px solid  #F5170E;
     background: white;
     font-size:14px;
     color: #F5170E;  
+    padding: 16px, 32px;
 }
 
 .button--theme-tours:hover{
 
 color:white;
+}
+.news{
+    margin-bottom: 145px;
 }
 
 .news__item{
@@ -204,9 +227,9 @@ color:white;
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 25px;
+    margin-right: 20px;
 }
-.offers__item:last-of-type {
+.news__item:last-child {
     margin-right: 0;
 
 }
@@ -223,7 +246,7 @@ color:white;
     right:0;
     bottom:0;
     padding: 25px 30px;
-    min-height: 140px;
+    min-height: 174px;
 
 }
 
@@ -236,7 +259,9 @@ color:white;
     font-weight: bold;
     margin-bottom: 4px;
 }
-
+.news__list{
+    margin-bottom: 53px;
+}
 .pagination{
     text-align: center;
 }
@@ -260,13 +285,18 @@ vertical-align: middle;
     text-decoration:none;
     font-weight: bold;
     line-height: 32px;
+    color:white;
 }
 .pagination__number--active{
     background: white;
     color: #DA0100;
 }
-
+.about
+{margin-bottom: 52px;}
 .about__block:before{
+    position:absolute;
+    left:0;
+    top:0;
     content:"";
     display:block;
     width: 490px;
@@ -276,41 +306,50 @@ vertical-align: middle;
 
 .about__block{
 position: relative;
+padding-top: 97px;
+border-radius: 5px;
 }
 
 .about__block-content{
-    position: absolute;
-    margin-right: 81px;
-    margin-top: 70px;
+    margin-left: auto;
+    width: 785px;
+    background: url(img/mountains.png) center center / cover no-repeat;
+    padding: 68px 202px 68px 81px;
+    position: relative;
+ 
 }
 .about__title-dark{
-    position: absolute;
+
     color:black;
     margin-bottom: 37px;
 }
+.about__text{
+    margin-bottom: 63px;
+    color:#060606;
+}
 
-.footer{
-height: 152px;
-position: relative;
-
+.footer__container{
+    border-top: 1px solid #192e37;
+    height: 147px;
+    position: relative;
 }
 
 
 .logo__footer{
     display: block;
     position:absolute;
-    top:57px;
+    top:47px;
     left:0;
 }
 
 .menu__footer{
-top:60px;
-left: 160px;
+top:54px;
+left: 164px;
 position: absolute;
 
 }
 .contacts__footer{
-    top: 42px;
+    top: 45px;
     right:0;
     position:absolute;
 }
@@ -339,14 +378,14 @@ position: absolute;
 
 .socials{
 top: 50px;
-right:300px;
+right:247px;
 position: absolute;
 }
-.social__item{
+.socials__item{
     display:inline-block;
     vertical-align: middle;
     margin-right:10px;
-    position: absolute;
+    
 }
 .social__item:last-child{
 margin-right: 0;
