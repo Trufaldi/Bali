@@ -27,35 +27,6 @@ p {
 margin:0;
 }
 
-.header{
-height: 60px;
-position: relative;
-margin-bottom: 137px;
-
-}    
-
-.logo{
-display: block;
-position: absolute;
-top: 30px;
-left:0;
-}
-
-.menu {
-top:43px;      
-position:absolute;
-left: 164px;
-}
-
-.contacts {
-top:30px;
-right: 0;
-position: absolute;
-}
-.contacts__phone {
-color: white;
-}
-   
 ul{
     padding:0;
     margin:0;
@@ -64,6 +35,34 @@ ul{
 ul li{
     list-style: none;
 }
+
+.header{
+padding-top: 27px;
+margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}    
+
+.header__col{
+display: flex;
+align-items: center;
+}
+
+.header__col--align--right{
+justify-content: flex-end;
+}
+
+.logo{
+display: block;
+margin-right: 80px;
+}
+
+.contacts__phone {
+color: white;
+}
+   
+
 .menu__item{
 display: inline-block;
 vertical-align: middle;
@@ -94,8 +93,17 @@ text-align:right;
     text-decoration: underline;
     margin-top:-5px;
 }
+
+.container__hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 512px;
+
+}
+
 .hello{
-    width: 516px;
+    width: 50%;
     margin-bottom:240px;
 
 }
@@ -149,13 +157,11 @@ margin-bottom:130px;
     min-height: 450px;
     background-color: white;
     border-radius: 5px;
-    display: inline-block;
-    margin-right: 20px;
-    width: 362px;
-
+    width: calc(100%/3-18px);  
 }
 .offers{
-    margin-bottom: 127px;
+    display:flex;
+    justify-content: space-between;
 }
 
 .offers__header{
@@ -182,7 +188,7 @@ margin-right: 0;
 }
 
 .offers__feature {
-display: inline-block;
+
 vertical-align: middle;
 width: 126px;
 margin-right: 28px;
@@ -261,14 +267,26 @@ color:white;
 }
 .news__list{
     margin-bottom: 53px;
+    display: flex;
+    justify-content: space-between;
 }
 .pagination{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.pagination__text, .pagination__list{
-    display:inline-block;
-    vertical-align: middle;
+.pagination__list{
+font-display: flex;
+align-items: center;
+
 }
+
+.pagination__number{
+
+    text-align:center;
+}
+
 .pagination__text{
     margin-right: 25px;
 }
@@ -433,4 +451,20 @@ margin-right: 0;
 .social__item--icon--fb .socials__link:hover{
 
     background-image: url(img/inhover.png);
+}
+
+
+/* Страница услуг*/
+
+.top-line {
+min-height: 412px;
+display: flex;
+flex-direction: column;
+}
+
+.top-line__container{
+display: flex;
+flex:1;
+flex-direction: column;
+justify-content: space-between;
 }
