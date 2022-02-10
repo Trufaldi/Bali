@@ -41,10 +41,19 @@ padding-top: 27px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-}    
+} 
+
+.header-inner {
+padding-top: 30px;
+
+}
+.header-inner__logo{
+width:98px;
+margin-right: 66px;
+}
 
 .header--main{
-    margin-bottom: 137px;
+    margin-bottom: 124px;
 }
 
 
@@ -59,17 +68,23 @@ justify-content: flex-end;
 
 .logo{
 display: block;
-margin-right: 80px;
+margin: 79px;
+width: 85px;
+
 }
+
 
 .contacts__phone {
 color: white;
 }
-   
+
+.menu__list{
+    display: flex;
+    align-items: center;
+}
 
 .menu__item{
-display: inline-block;
-vertical-align: middle;
+
 margin-right: 50px;
 }
 .menu__link{
@@ -99,36 +114,35 @@ text-align:right;
     color: white;
 }
 
-.container__hello{
-   
-}
+
 
 .hello{
     width: 50%;
-    margin-bottom:247px;
+    margin-bottom:267px;
 
 }
 
 .hello__title{
     font-size:72px;
     font-weight: bold;
-    line-height: 84.40px;
-    margin-bottom: 42px;
+    line-height: 100px;
+    margin-bottom: 27px;
 }
 .hello__text{
     font-size:18px;
-    margin-bottom: 34px;
+    margin-bottom: 53px;
 }
 
 .button {
 background: #F5170E;
 border-radius: 35px;
-padding: 18px 37px;
+padding: 18px 40px;
 color: white;
 font-weight:bold;
 text-transform: uppercase;
 text-decoration: none;
-display: inline-block;
+font-size: 14px;
+
 }
 
 .button:hover{
@@ -143,11 +157,13 @@ margin-bottom:130px;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 52px;
+    display:flex;
+    align-items: center;
 
 }
 .title--fire::after{
     content:"";
-        display: inline-block;
+        
         width: 21px;
         height: 28px;
         background: url(img/flame.png) center center / cover no-repeat ;   
@@ -172,7 +188,7 @@ min-height: 144px;
 }
 
 .offers{
-    margin-bottom: 127px;
+    margin-bottom: 131px;
 }
 
 .offers__item:last-child{
@@ -180,7 +196,7 @@ margin-right: 0;
 }
 
 .offers__content{
-    padding: 26px 22px;
+    padding: 35px 22px 26px 22px;
     color: #303030;
 }
 .offers__title{
@@ -190,15 +206,16 @@ margin-right: 0;
 
 }
 .offers__features{
-    margin-bottom: 24px;
+    margin-bottom: 29px;
     display: flex;
+    padding-left: 7px;
 }
 
 .offers__feature {
-
-vertical-align: middle;
 width: 126px;
 margin-right: 28px;
+display: flex;
+align-items: center;
 }
 .offers__feature:last-child  {
 margin-right: 0;
@@ -207,22 +224,19 @@ margin-right: 0;
 
 .offers__text {
     font-size:14px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
+    line-height: 21px;
 }
 
-.offers__feature-img, .offers__feature-text {
-display: inline-block;
-vertical-align: middle;
-}
 .offers__feature-img {
-    margin-right: 10px;
+    margin-right: 9px;
 }
 .button--theme-tours{
     border: 1px solid  #F5170E;
     background: white;
     font-size:14px;
     color: #F5170E;  
-    padding: 16px, 32px;
+    padding: 18lpx 30px;
 }
 
 .button--theme-tours:hover{
@@ -262,18 +276,26 @@ color:white;
     right:0;
     bottom:0;
     padding: 25px 30px;
-    min-height: 174px;
+    min-height: 165px;
 
 }
 
+.news__text{
+    font-size:16px;
+    line-height: 22px;
+}
+
 .news__time{
+    display: block;
+    line-height: 21px;
     font-size:14px;
-    margin-bottom: 14px;
+    margin-bottom: 13px;
 }
 .news__title{
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 18px;
+    line-height: 36px;
+  
 }
 .news__list{
     margin-bottom: 53px;
@@ -287,25 +309,23 @@ color:white;
 
 }
 .pagination__list{
-font-display: flex;
+display: flex;
 align-items: center;
 
 }
 
-.pagination__number{
-
-    text-align:center;
+.news__pagination{
+    padding-left: 12px;
 }
-
 .pagination__text{
     margin-right: 25px;
 }
 
 .pagination__item{
-display: inline-block;
-vertical-align: middle;
+    margin-right: 2px;
 }
 .pagination__number{
+    text-align:center;
     display: block;
     width: 32px;
     height:32px;
@@ -315,10 +335,40 @@ vertical-align: middle;
     line-height: 32px;
     color:white;
 }
+
+.pagination__number--red{
+    color:black;
+}
+
+.pagination__number--red:hover, 
+.pagination__number--active--red{
+    background: #DA0100;
+    color: white;
+}
+
+
 .pagination__number--active{
     background: white;
     color: #DA0100;
 }
+.pagination--red{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+.pagination__number{
+    text-align:center;
+}
+
+.pagination__text{
+    margin-right: 25px;
+}
+
+
+
 .about
 {margin-bottom: 52px;}
 .about__block:before{
@@ -342,7 +392,7 @@ border-radius: 5px;
     margin-left: auto;
     width: 785px;
     background: url(img/mountains.png) center center / cover no-repeat;
-    padding: 80px 202px 68px 81px;
+    padding: 80px 202px 86px 81px;
     position: relative;
     border-radius: 5px;
  
@@ -353,7 +403,7 @@ border-radius: 5px;
     margin-bottom: 37px;
 }
 .about__text{
-    margin-bottom: 63px;
+    margin-bottom: 62px;
     color:#060606;
     line-height: 27px;
 }
@@ -367,10 +417,7 @@ border-radius: 5px;
 }
 
 
-.logo__footer{
-    left:0;
-    margin-right: 66px;
-}
+
 
 .menu__footer{
 top:54px;
@@ -384,9 +431,13 @@ left: 164px;
     
 }
 
+.footer-inner__logo{
+    width: 98px;
+    margin-right: 66px;
+}
+
 .menu__item-footer{
-    display: inline-block;
-    vertical-align: middle;
+    
     margin-right: 54px;
 }
 
@@ -407,13 +458,13 @@ left: 164px;
 }
 
 .socials{
- margin-right: 74px;   
+ margin-right: 45px;   
 margin-left:auto;
+display: flex;
 
 }
 .socials__item{
-    display:inline-block;
-    vertical-align: middle;
+    
     margin-right:10px;
     
 }
@@ -421,7 +472,7 @@ margin-left:auto;
 margin-right: 0;
 }
 .socials__link{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     width: 36px;
     height:36px;
@@ -572,47 +623,6 @@ margin-bottom: 0;
 }
 
 
-.pagination--red{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin-top: 70px;
-}
-
-.pagination__list{
-font-display: flex;
-align-items: center;
-}
-
-.pagination__number{
-    text-align:center;
-}
-
-.pagination__text{
-    margin-right: 25px;
-}
-
-.pagination__item{
-display: inline-block;
-vertical-align: middle;
-}
-
-.pagination__number--red{
-    display: block;
-    width: 32px;
-    height:32px;
-    border-radius: 50%;
-    text-decoration:none;
-    font-weight: bold;
-    line-height: 32px;
-    color:black;
-}
-
-.pagination__number--active--red{
-    background: #DA0100;
-    color: white;
-}
-
 
 
 .partners{
@@ -654,4 +664,6 @@ justify-content: space-between;
 justify-content: flex-end;
 
 }
+
+/* Приветственная страница */
 
