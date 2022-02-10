@@ -1,0 +1,53 @@
+.footer__container{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #192e37;
+    height: 147px;
+    
+}
+
+.footer-inner__container{
+    display: flex;
+    border-top: 0px;
+    height: auto;
+    padding: 49px 0 38px;
+}
+
+
+.menu__footer{
+top:54px;
+left: 164px;
+
+
+}
+.contacts__footer{
+    top: 45px;
+    right:0;
+    
+}
+
+.footer-inner__logo{
+    width: 98px;
+    margin-right: 66px;
+}
+
+.menu__item-footer{
+    
+    margin-right: 54px;
+}
+
+.contacts__footer{
+   font-style: normal;
+   text-align: right;
+  
+}
+
+.contacts__phone-footer{
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+}
+.contacts__text{
+    color:#9A9A9A;
+    font-size: 11px;   
+}

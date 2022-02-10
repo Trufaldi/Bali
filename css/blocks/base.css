@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#001821 ;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.container{
+    margin:0 auto;
+    width: 1141px;
+}
+
+.main-page-wrapper{
+    color:white;
+    background: url("img/1.png") center top no-repeat, url("img/2.png") right bottom 117px no-repeat;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    font-weight:normal;
+}
+
+p {
+margin:0;
+}
+
+ul{
+    padding:0;
+    margin:0;
+}
+
+ul li{
+    list-style: none;
+}

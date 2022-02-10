@@ -1,0 +1,45 @@
+.button {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    color: white;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    
+    }
+     .button:hover{
+        background-color: #DA0100;
+    }
+    
+ .button--theme-tours{
+        border: 1px solid  #F5170E;
+        background: white;
+        font-size:14px;
+        color: #F5170E;  
+        padding: 18lpx 30px;
+    }
+    
+ .button--theme-tours:hover{
+    
+    color:white;
+    }
+
+
+    .button--services {
+        border: 1px solid  #F5170E;
+        background: white;
+        font-size: 14px;
+        color: #F5170E;
+        padding: 18px 40px;
+    }
+    
+    .button--services:hover{
+        border: 1px solid  #F5170E;
+        background: #F5170E;
+        color:white;
+    }
+    
+       
+    
