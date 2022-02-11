@@ -1,4 +1,5 @@
 .button {
+    display:inline-block;
     background: #F5170E;
     border-radius: 35px;
     padding: 18px 40px;
@@ -18,7 +19,7 @@
         background: white;
         font-size:14px;
         color: #F5170E;  
-        padding: 18lpx 30px;
+        padding: 18px 30px;
     }
     
  .button--theme-tours:hover{

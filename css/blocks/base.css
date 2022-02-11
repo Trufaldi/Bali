@@ -16,7 +16,7 @@ box-sizing: border-box;
 
 .main-page-wrapper{
     color:white;
-    background: url("img/1.png") center top no-repeat, url("img/2.png") right bottom 117px no-repeat;
+    background: url("../../img/1.png") center top no-repeat, url("img/2.png") right bottom 117px no-repeat;
 }
 h1,h2,h3,h4,h5,h6{
     margin:0;
@@ -35,3 +35,9 @@ ul{
 ul li{
     list-style: none;
 }
+
+
+.section{
+    margin-bottom:130px;
+    }
+    

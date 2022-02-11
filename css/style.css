@@ -1,15 +1,10 @@
 
-.section{
-margin-bottom:130px;
-}
-
-
+@import url('blocks/normalize.css');
 @import url('blocks/base.css');
 @import url('blocks/header.css');
-@import url('blocks/normalize.css');
-@import url('block/button.css');
-@import url('block/offers.css');
-@import url('block/hello.css');
+@import url('blocks/button.css');
+@import url('blocks/offers.css');
+@import url('blocks/hello.css');
 @import url('blocks/title.css');
 @import url('blocks/pagination.css');
 @import url('blocks/about.css');
@@ -20,3 +15,4 @@ margin-bottom:130px;
 @import url('blocks/services.css');
 @import url('blocks/top-line.css');
 @import url('blocks/page-content.css');
+@import url('blocks/news.css');
