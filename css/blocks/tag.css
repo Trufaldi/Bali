@@ -1,0 +1,17 @@
+.tag{
+    font-size:13px;
+    color:#303030;
+    padding: 9px 17px;
+    border-radius: 50px;
+    background: #E7E7E7 ;
+}
+
+.tag--green{
+    background: #B9EAE4;
+}
+
+.rewiews__tag {
+    display:flex;
+    align-items:flex-start;
+
+}

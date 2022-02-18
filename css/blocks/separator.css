@@ -1,0 +1,21 @@
+.separator{
+    background: url('../../img/Rectangle.png') center center no-repeat;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+    }
+    
+    .separator__content{
+        max-width: 50%;
+        content: url('../../img/couple.png') rihht 20% bottom 119%  no-repeat;
+    }
+    
+    .separator__title{
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56,25px;
+    }
+    

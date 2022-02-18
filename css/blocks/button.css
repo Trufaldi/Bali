@@ -12,6 +12,7 @@
     }
      .button:hover{
         background-color: #DA0100;
+        transition: all 1s ease 0s;
     }
     
  .button--theme-tours{
@@ -23,7 +24,7 @@
     }
     
  .button--theme-tours:hover{
-    
+    transition: all 1s ease 0s;
     color:white;
     }
 
@@ -40,7 +41,14 @@
         border: 1px solid  #F5170E;
         background: #F5170E;
         color:white;
+        transition: all 1s ease 0s;
     }
     
-       
-    
+.button--theme-black   {
+    background: #2B2B2B;
+    border: none;
+}
+ 
+.button--theme-red {
+    border: none;
+}

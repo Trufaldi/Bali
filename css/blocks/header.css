@@ -71,8 +71,46 @@
         text-decoration: underline;
         margin-top:-5px;
         color: white;
+        position: relative;
     }
     
 
     .header-inner .logo{ 
-    margin-right: 66px};
+    margin-right: 66px;
+}
+
+.contacts__schedule:hover.dropdown{
+    left:initial;
+    right:0;
+    opacity: 1;
+}
+
+    .dropdown{
+        position: absolute;
+        background: #EDEDED;
+        padding: 20px;
+        font-style: 13px;
+        line-height: 21px;
+        border-radius: 5px;
+        text-align: left;
+        left: -9999px;
+        opacity: 0;
+        top: calc(100%+10px);
+        transition: opacity 3s;
+    }
+
+    .dropdown::before{
+        content: '';
+        width: 20px;
+        height: 20px;
+        top: -10px;
+        right:40px;
+        background: #EDEDED;
+        position: absolute;
+        transform: rotate(45deg);
+
+    }
+
+.dropdown__item--bold{
+    font-weight: bold;
+}

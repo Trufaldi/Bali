@@ -1,0 +1,67 @@
+.rewiews {
+    column-count: 2;
+    column-gap:30px;
+    margin-bottom: 71px;
+    
+    }
+    .rewiews__item{
+        margin-bottom: 20px;
+    }
+    .rewiew {
+        display: flex;
+        flex-direction: column;
+        padding: 52px 30px;
+        background: #F4F5F5;
+        border-radius: 5px;
+    }
+    
+    .avatar {
+    width: 140px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 23px;
+    }
+    
+    .rewiews__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 28px;
+    }
+    
+    .rewiews__user {
+        display: inline-flex;
+        align-items: center;
+        font-size:24px;
+        font-weight:bold;
+        color: #2E77A4; 
+        margin-bottom: 11px;
+    }
+    
+    .rewiews__user:after {
+    content: url('../../img/vk-blue 1.png');
+    height:30px;
+    margin-left: 12px;
+    }
+    
+    
+    
+    
+    .rewiew__title{
+        font-size: 30px;
+        color: #1A1B1E;
+        font-weight: bold;
+        margin-bottom: 13px;
+    }
+    
+    .rewiew__text {
+    color:#818181;
+    line-height: 27px;
+    margin-bottom: 49px;
+    }
+    
+    .rewiew__date{
+        font-size: 14px;
+        color:#1A1B1E;
+        font-weight: bold;
+    }
