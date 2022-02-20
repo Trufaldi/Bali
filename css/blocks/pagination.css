@@ -1,67 +1,73 @@
-.pagination{
+.pagination {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-
-}
-.pagination__list{
-display: flex;
-align-items: center;
-
 }
 
-.news__pagination{
+.pagination__list {
+    display: flex;
+    align-items: center;
+}
+
+.news__pagination {
     padding-left: 12px;
 }
-.pagination__text{
+
+.pagination__text {
     margin-right: 25px;
 }
 
-.pagination__item{
+.pagination__item {
     margin-right: 2px;
 }
-.pagination__number{
-    text-align:center;
+
+.pagination__number {
+    text-align: center;
     display: block;
     width: 32px;
-    height:32px;
+    height: 32px;
     border-radius: 50%;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: bold;
     line-height: 32px;
-    color:white;
+    color: white;
 }
 
-.pagination__number--red{
-    color:black;
+.pagination__number:hover,
+.pagination__number--active {
+    background: white;
+    color: #F5170E;
+    transition: all 1s ease 0s;
 }
 
-.pagination__number--red:hover, 
-.pagination__number--active--red{
+.pagination__number--red {
+    color: black;
+}
+
+.pagination__number--red:hover,
+.pagination__number--active--red {
     background: #DA0100;
     color: white;
     transition: all 1s ease 0s;
 }
 
-
-.pagination__number--active{
+.pagination__number--active {
     background: white;
     color: #DA0100;
 }
-.pagination--red{
+
+.pagination--red {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     margin-top: 55px;
     padding-left: 44px;
 }
 
-
-.pagination__number{
-    text-align:center;
+.pagination__number {
+    text-align: center;
 }
 
-.pagination__text{
+.pagination__text {
     margin-right: 25px;
 }
-

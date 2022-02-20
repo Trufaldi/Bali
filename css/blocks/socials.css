@@ -1,61 +1,52 @@
-.socials{
-    margin-right: 45px;   
-   margin-left:auto;
-   display: flex;
-   
-   }
-   .socials__item{
-       
-       margin-right:10px;
-       
-   }
-   .social__item:last-child{
-   margin-right: 0;
-   }
-   .socials__link{
-       display: block;
-       text-decoration: none;
-       width: 36px;
-       height:36px;
-   }
-   .social__item--icon--tg .socials__link{
-   
-       background: url('../../img/css_sprites.png') -10px -10px;
-   }
-   
-   .social__item--icon--tg .socials__link:hover{
-   
-       background:  url('../../img/css_sprites.png') -10px -66px;
-   }
-   
-   .social__item--icon--vk .socials__link{
-   
-    background: url('../../img/css_sprites.png') -10px -122px;
-   }
-   
-   .social__item--icon--vk .socials__link:hover{
-   
-    background: url('../../img/css_sprites.png') -10px -178px;
-   }
-   
-   .social__item--icon--fb .socials__link{
-    background: url('../../img/css_sprites.png') -10px -290px;
+    .socials {
+        margin-right: 45px;
+        margin-left: auto;
+        display: flex;
+    }
     
-   }
-   
-   .social__item--icon--fb .socials__link:hover{
-   
-    background: url('../../img/css_sprites.png') -10px -234px;
-   }
-   
-   .social__item--icon--inst .socials__link{
-    background: url('../../img/css_sprites.png') -10px -402px;
-   
-   }
-   
-   .social__item--icon--inst .socials__link:hover{
-
-    background: url('../../img/css_sprites.png') -10px -346px;
+    .socials__item {
+        margin-right: 10px;
+    }
     
-   }
-   
+    .social__item:last-child {
+        margin-right: 0;
+    }
+    
+    .socials__link {
+        display: block;
+        text-decoration: none;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .social__item--icon--tg .socials__link {
+        background: url('../../img/css_sprites.png') -10px -66px;
+    }
+    
+    .social__item--icon--tg .socials__link:hover {
+        background: url('../../img/css_sprites.png') -10px -10px;
+    }
+    
+    .social__item--icon--vk .socials__link {
+        background: url('../../img/css_sprites.png') -10px -178px;
+    }
+    
+    .social__item--icon--vk .socials__link:hover {
+        background: url('../../img/css_sprites.png') -10px -122px;
+    }
+    
+    .social__item--icon--fb .socials__link {
+        background: url('../../img/css_sprites.png') -10px -234px;
+    }
+    
+    .social__item--icon--fb .socials__link:hover {
+        background: url('../../img/css_sprites.png') -10px -290px;
+    }
+    
+    .social__item--icon--inst .socials__link {
+        background: url('../../img/css_sprites.png') -10px -346px;
+    }
+    
+    .social__item--icon--inst .socials__link:hover {
+        background: url('../../img/css_sprites.png') -10px -402px;
+    }
