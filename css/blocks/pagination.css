@@ -60,7 +60,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
     padding-left: 44px;
 }
 
@@ -69,5 +68,9 @@
 }
 
 .pagination__text {
-    margin-right: 25px;
+    margin-right: 14px;
+}
+
+.pagination--rewiews {
+    padding-left: 20px;
 }

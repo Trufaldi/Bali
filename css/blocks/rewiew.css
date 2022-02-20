@@ -1,7 +1,7 @@
 .rewiews {
     column-count: 2;
     column-gap: 30px;
-    margin-bottom: 71px;
+    margin-bottom: 36px;
 }
 
 .rewiews__item {
@@ -63,4 +63,8 @@
     font-size: 14px;
     color: #1A1B1E;
     font-weight: bold;
+}
+
+.container__rewiews {
+    margin-bottom: 87px;
 }
